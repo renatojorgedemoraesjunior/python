@@ -1,0 +1,17 @@
+#importar a biblioteca motplotlib.pyplot
+import matplotlib.pyplot as plt
+#dados exemplos 
+valores = [18,15,19,15,5]
+rotulos = ['f', 's', 'o', 'p', 'x']
+#criar o grafico de  pizza
+plt.pie(valores, labels=rotulos,autopct= '1.1f%%',startangle=140)
+
+#adicionar titulo
+plt.title ('exemplo de grafico de pizza')
+#exibir o grafico
+plt.show()
+
+
+
+
+
